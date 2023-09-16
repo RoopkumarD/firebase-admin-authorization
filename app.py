@@ -10,7 +10,7 @@ firebase_admin.initialize_app(cred)
 user_uid = "lMhW25EvXaVyUOiAHieGY58R7iX2"
 
 # Define the custom claims to set
-custom_claims = {"isAdmin": True}
+custom_claims = {"writer": True}
 
 # Set the custom claims
 try:

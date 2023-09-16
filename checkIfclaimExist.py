@@ -16,8 +16,8 @@ try:
     custom_claims = user.custom_claims
 
     # Check if the custom claim exists and is set to true
-    if custom_claims and custom_claims.get("isAdmin"):
-        print("User is an admin")
+    if custom_claims and custom_claims.get("writer"):
+        print("User is an writer")
     else:
         print("User is not an admin or custom claim not set")
 except Exception as e:
